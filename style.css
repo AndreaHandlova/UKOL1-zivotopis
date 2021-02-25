@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    color: #242121;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.omne img {
+    width: 300px;
+    border-radius: 10px;
+    float: left;
+    margin: 0 40px 40px 0;
+}
+
+.konicky img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 40px 0 0 0;
+}
+
+.kocicky img {
+    width: 500px;
+    float: right;
+    margin: 0 0 40px 40px;
+    border-radius: 10px;
+}
+
+section {
+    padding: 50px 15%;
+}
+
+.kontakt a,
+.kocicky a,
+.konicky a {
+    color: #696969;
+}
+
+.paticka {
+    text-align: center;
+    background-color: #696969;
+    color: white;
+    padding: 15px 0;
+}
+
+.menu {
+    background-color: #696969;
+    text-align: center; 
+}
+
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #242121;
+}
